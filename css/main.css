@@ -166,6 +166,10 @@ header span {
     display: block;
 }
 
+.contact{
+    background-color: white;
+}
+
 .left{
     float: left;
     width:16.6%;
