@@ -149,6 +149,18 @@ header span {
     background-color: white;
 }
 
+.project_style{
+    font-size: .7em;
+}
+
+.project_style a {
+    text-decoration: underline;
+}
+
+.project_style a:hover {
+    text-decoration: line-through;
+}
+
 .prog_bars {
     padding-top: 100px;
     display: block;
