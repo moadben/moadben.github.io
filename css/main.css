@@ -93,11 +93,42 @@ header span {
     height: 100px;
 }
 
+
 #Python,
 #HTML,
 #CSS {
     width: 100px;
     height: 100px;
+}
+
+#HTML {
+    background: url('../img/html.png') no-repeat center;
+    background-size: 60% 60%;
+}
+
+#PHP{
+    background: url('../img/php_1.png') no-repeat center;
+    background-size: 70% 70%;
+}
+
+#Python {
+    background: url('../img/Python.png') no-repeat center;
+    background-size: 60% 60%;
+}
+
+#CSS {
+    background: url('../img/css.png') no-repeat center;
+    background-size: 60% 60%;
+}
+
+#Java {
+    background: url('../img/Java.png') no-repeat center;
+    background-size: 70% 70%;
+}
+
+#C {
+    background: url('../img/c.png') no-repeat center;
+    background-size: 70% 70%;
 }
 
 .hero_element{
