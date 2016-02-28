@@ -35,10 +35,29 @@ window.onload = function onLoad() {
         easing: 'easeInOut'
     });
 
-    circle.animate(1);
-    circle_2.animate(1);
-    circle_3.animate(1);
-    circle_4.animate(1);
-    circle_5.animate(1);
-    circle_6.animate(1);
+   function animate(){
+        circle.animate(1);
+        circle_2.animate(1);
+        circle_3.animate(1);
+        circle_4.animate(1);
+        circle_5.animate(1);
+        circle_6.animate(1);
+    }
+
+function isElementInViewport(){
+     var scrollTop = $(window).scrollTop();
+     var viewportHeight = $(window).height();
+     $("#PHP:in-viewport").each(function(){
+        var top = $(this).offset().top;
+            if(scrollTop + viewportHeight >= top ){
+                animate();
+            }
+    });
+};
+
+
+$(window).scroll(isElementInViewport);
+
+};
+
 };
