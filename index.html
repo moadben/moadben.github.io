@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -17,8 +18,9 @@
 						<span style="size:10px"> Moad Ben-Suleiman </span>
 					</div>
 					<div>
-						<a href="#"> Work </a>
-						<a href="#"> Contact </a>
+						<a href="#technical_skills_element"> Skills </a>
+						<a href="#projects"> Projects </a>
+						<a href="#contact"> Contact </a>
 					</div>
 				</nav>
 			</header>
@@ -31,7 +33,7 @@
 	</div>
 
 
-	<div class="technical_skills_element">
+	<div class="technical_skills_element" id="technical_skills_element">
 		<div class="flex flex-horizontal-center container flex-spread technical_skills">
 			<h2 class="technical_skills"> Technical Skills </h2>
 		</div>
@@ -64,7 +66,7 @@
 		</div>
 	</div>
 
-	<div style="margin-top:300px;padding-bottom:50px" class="projects">
+	<div style="margin-top:300px;padding-bottom:50px" class="projects" id="projects">
 		<h2 class="projects"> <center> Projects </center></h2>
 		<div class="project_style">
 			<center style="padding-top:65px">
@@ -81,9 +83,33 @@
 		</div>
 	</div>
 
+<footer class="contact" id="contact">
+		<div class="flex flex-horizontal-center container">
+			<header>
+				<nav class="flex flex-spread"> 
+					<div>
+						<a href="http://github.com/moadben"> Github </a>
+						<a href="https://ca.linkedin.com/in/moad-ben-suleiman-085228b8"> LinkedIn </a>
+					</div>
+					<div>
+						<span style="size:10px"><a href="mailto:moadben95@gmail.com"> email </a></span>
+					</div>
+				</nav>
+			</header>
+		</div>
+	</footer>
 
 	<script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js"></script>
 	<script src="javascript/main.js"></script>
+
+	<script type="text/javascript">
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 1000);
+        return false;
+    });
+  </script>
 
 </body>
 </html>
