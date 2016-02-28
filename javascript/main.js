@@ -35,7 +35,7 @@ window.onload = function onLoad() {
         easing: 'easeInOut'
     });
 
-   function animate(){
+    function animate(){
         circle.animate(1);
         circle_2.animate(1);
         circle_3.animate(1);
@@ -57,7 +57,5 @@ function isElementInViewport(){
 
 
 $(window).scroll(isElementInViewport);
-
-};
 
 };
