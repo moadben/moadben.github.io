@@ -86,6 +86,9 @@ header span {
 }
 
 .tech_summary{
+    -webkit-animation: fadeup 1.5s;
+    -moz-animation: fadeup 1.5s;
+    animation: fadeup 1.5s;
     padding-top: 10px;
     font-size: 1em;
     text-align: center;
@@ -144,6 +147,9 @@ header span {
 
 .hero_element{
     background-color: #f6f6f6;
+     -webkit-animation: fadeup 1.5s;
+    -moz-animation: fadeup 1.5s;
+    animation: fadeup 1.5s;
 }
 
 
@@ -151,6 +157,9 @@ header span {
     font-size: 1.3em;
     padding-top: 25px;
     font-weight: normal;
+    -webkit-animation: fadeup 1.5s;
+    -moz-animation: fadeup 1.5s;
+    animation: fadeup 1.5s;
 }
 
 .projects{
@@ -158,6 +167,9 @@ header span {
     padding-top: 25px;
     font-weight: normal;
     background-color: white;
+    -webkit-animation: fadeup 1.5s;
+    -moz-animation: fadeup 1.5s;
+    animation: fadeup 1.5s;
 }
 
 .project_style{
@@ -200,4 +212,10 @@ header span {
     width: 16.6%;
     text-align: center;
 
+}
+
+footer {
+    -webkit-animation: fadeup 1.5s;
+    -moz-animation: fadeup 1.5s;
+    animation: fadeup 1.5s;
 }
