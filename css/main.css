@@ -20,6 +20,11 @@ nav {
     font-size: .9em;
 }
 
+p {
+    -webkit-animation: fadeup 1.5s;
+    -moz-animation: fadeup 1.5s;
+    animation: fadeup 1.5s;
+}
 
 a { 
     /*default is underline*/
