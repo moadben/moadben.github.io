@@ -124,6 +124,9 @@ header span {
 #PHP,
 #C,
 #Java {
+    -webkit-animation: fadeup 1.5s;
+    -moz-animation: fadeup 1.5s;
+    animation: fadeup 1.5s;
     width: 100px;
     height: 100px;
 }
@@ -132,6 +135,9 @@ header span {
 #Python,
 #HTML,
 #CSS {
+    -webkit-animation: fadeup 1.5s;
+    -moz-animation: fadeup 1.5s;
+    animation: fadeup 1.5s;
     width: 100px;
     height: 100px;
 }
