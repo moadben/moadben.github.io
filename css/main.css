@@ -33,6 +33,8 @@ a {
     color: #000;
 }
 
+
+
 .hero {
     padding-top: 60px;
     padding-bottom: 220px;
@@ -128,7 +130,9 @@ header span {
 
 #PHP,
 #C,
-#Java {
+#Java,
+#Go,
+#Javascript {
     -webkit-animation: fadeup 1.5s;
     -moz-animation: fadeup 1.5s;
     animation: fadeup 1.5s;
@@ -147,23 +151,18 @@ header span {
     height: 100px;
 }
 
-#HTML {
-    background: url('../img/html.png') no-repeat center;
+#Go {
+    background: url('../img/golang.png') no-repeat center;
     background-size: 60% 60%;
 }
 
-#PHP{
-    background: url('../img/php_1.png') no-repeat center;
+#Javascript {
+    background: url('../img/javascript.png') no-repeat center;
     background-size: 70% 70%;
 }
 
 #Python {
     background: url('../img/Python.png') no-repeat center;
-    background-size: 60% 60%;
-}
-
-#CSS {
-    background: url('../img/css.png') no-repeat center;
     background-size: 60% 60%;
 }
 
@@ -229,19 +228,19 @@ header span {
 
 .left{
     float: left;
-    width:16.6%;
+    width:20%;
     text-align: center;
 }
 
 .right{
     float: right;
-    width: 16.6%;
+    width: 20%;
     text-align: center;
 }
 
 .center{
     float: left;
-    width: 16.6%;
+    width: 20%;
     text-align: center;
 
 }
